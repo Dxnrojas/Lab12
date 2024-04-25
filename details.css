@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+
+.container {
+    border: solid;
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+img{
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.name {
+    border: solid;
+    width: 10vw;
+    height: 7vh;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
