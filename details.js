@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     <h2 class="name"> ${personaje.displayName} <h2/>
     <p class= "description"> ${personaje.description} <p/>
-    <img src=${personaje.displayIcon}>` 
+    <img class="img" src=${personaje.displayIcon}>` 
 });
 
